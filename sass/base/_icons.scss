@@ -1,0 +1,56 @@
+.ico{
+  cursor: pointer;
+  display: inline-block;
+
+  &_play{
+    background-image: url("../img/promo/icons/triangle.svg");
+    width:18px;
+    height:19px;
+  }
+
+  &_cursor{
+    background-image: url("../img/tools/icons/cursor.svg");
+    width:12px;
+    height:17px;
+  }
+  &_design{
+    background-image: url("../img/tools/icons/design.svg");
+    width:18px;
+    height:14px;
+  }
+  &_heart{
+    background-image: url("../img/tools/icons/heart.svg");
+    width:17px;
+    height:15px;
+  }
+  &_clock{
+    background-image: url("../img/tools/icons/clock.svg");
+    width:15px;
+    height:17px;
+  }
+
+}
+
+.icon-square{
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &_violet{
+  background: $color-violet;
+  }
+  &_yellow{
+    background: $color-yellow;
+  }
+  &_red{
+    background: $color-red;
+  }
+  &_blue{
+    background: $color-blue;
+  }
+
+}
+
+
