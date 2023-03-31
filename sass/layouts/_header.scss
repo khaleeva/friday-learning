@@ -8,9 +8,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @include media-tablet{
+    padding-left: 24px;
+  }
 }
 
+.header__logo-line  {
+  display: flex;
+  align-items: center;
+  //@include media-mobile {
+  //  justify-content: center;
+  //  flex-grow: 1;
+  //  position: relative;
+  //}
+}
 
+.logo{
+  display: flex;
+}
+
+.logo-object{
+  width: 160px;
+}
 
 .header__buttons{
   & > button{
@@ -19,5 +39,9 @@
 
   .button:first-child{
     margin-left: 0;
+  }
+
+  @include media-mobile{
+    display: none;
   }
 }
